@@ -1,0 +1,7 @@
+/home/julia/Documents/cpp/kwm/dist/CMakeFiles/kwm.dir
+/home/julia/Documents/cpp/kwm/dist/CMakeFiles/edit_cache.dir
+/home/julia/Documents/cpp/kwm/dist/CMakeFiles/rebuild_cache.dir
+/home/julia/Documents/cpp/kwm/dist/CMakeFiles/list_install_components.dir
+/home/julia/Documents/cpp/kwm/dist/CMakeFiles/install.dir
+/home/julia/Documents/cpp/kwm/dist/CMakeFiles/install/local.dir
+/home/julia/Documents/cpp/kwm/dist/CMakeFiles/install/strip.dir

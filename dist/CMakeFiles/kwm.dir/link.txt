@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/kwm.dir/link.d CMakeFiles/kwm.dir/src/main.c.o CMakeFiles/kwm.dir/src/wm.c.o CMakeFiles/kwm.dir/src/utils/die.c.o -o kwm  -lwayland-server -lm -lwlroots -lxkbcommon -lpixman-1

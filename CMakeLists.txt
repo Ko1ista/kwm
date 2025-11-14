@@ -16,27 +16,29 @@ pkg_check_modules(PIXMAN REQUIRED pixman-1)
 add_executable(${PROJECT_NAME}
     src/main.c
     src/wm.c
+    src/config.c
     src/utils/die.c
+    src/utils/debug.c
 )
 
 target_include_directories(${PROJECT_NAME} PRIVATE include)
 
-target_link_libraries(${PROJECT_NAME} 
-    PRIVATE 
+target_link_libraries(${PROJECT_NAME}
+    PRIVATE
     ${WAYLAND_LIBRARIES}
     ${WLROOTS_LIBRARIES}
     ${XKBCOMMON_LIBRARIES}
     ${PIXMAN_LIBRARIES}
 )
 
-target_include_directories(${PROJECT_NAME} PRIVATE 
+target_include_directories(${PROJECT_NAME} PRIVATE
     ${WAYLAND_INCLUDE_DIRS}
     ${WLROOTS_INCLUDE_DIRS}
     ${XKBCOMMON_INCLUDE_DIRS}
     ${PIXMAN_INCLUDE_DIRS}
 )
 
-target_compile_options(${PROJECT_NAME} PRIVATE 
+target_compile_options(${PROJECT_NAME} PRIVATE
     ${WAYLAND_CFLAGS_OTHER}
     ${WLROOTS_CFLAGS_OTHER}
 )

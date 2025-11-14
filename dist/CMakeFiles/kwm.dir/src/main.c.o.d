@@ -49,4 +49,6 @@ CMakeFiles/kwm.dir/src/main.c.o: /home/julia/Documents/cpp/kwm/src/main.c \
  /usr/include/bits/endianness.h /usr/include/wlr/types/wlr_output.h \
  /usr/include/wayland-util.h /usr/include/wlr/types/wlr_buffer.h \
  /usr/include/wlr/util/addon.h \
- /home/julia/Documents/cpp/kwm/src/../include/utils.h
+ /home/julia/Documents/cpp/kwm/src/../include/./config.h \
+ /home/julia/Documents/cpp/kwm/src/../include/utils.h \
+ /home/julia/Documents/cpp/kwm/src/../include/config.h

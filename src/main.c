@@ -6,15 +6,17 @@
 
 #include "../include/wm.h"
 #include "../include/utils.h"
+#include "../include/config.h"
 
 int main(int argc, char* argv[]) {
+    get_config_from_file(NULL);
     wlr_log_init(WLR_DEBUG, NULL);
 
-    wm_t *wm = create_wm();
+    wm_t *wm = create_wm(config);
     if(!wm) {
         die(DIE_FAILURE, "Failed to initialize compositor\n");
     }
-    
+
     destroy_wm(wm);
 
     return 0;

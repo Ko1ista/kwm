@@ -7,5 +7,7 @@ typedef enum {
 } die_status_t;
 
 void die(int status, const char *message);
+void info(const char *message);
+void warn(const char *message);
 
 #endif

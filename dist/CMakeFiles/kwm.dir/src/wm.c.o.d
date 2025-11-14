@@ -7,13 +7,11 @@ CMakeFiles/kwm.dir/src/wm.c.o: /home/julia/Documents/cpp/kwm/src/wm.c \
  /usr/include/gnu/stubs-64.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
  /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
- /usr/include/bits/stdlib-float.h \
- /home/julia/Documents/cpp/kwm/src/../include/wm.h \
- /usr/include/wayland-server-core.h /usr/include/sys/types.h \
- /usr/include/bits/types.h /usr/include/bits/typesizes.h \
- /usr/include/bits/time64.h /usr/include/bits/types/clockid_t.h \
- /usr/include/bits/types/time_t.h /usr/include/bits/types/timer_t.h \
- /usr/include/bits/stdint-intn.h \
+ /usr/include/bits/stdlib-float.h /usr/include/wayland-server-core.h \
+ /usr/include/sys/types.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/bits/time64.h \
+ /usr/include/bits/types/clockid_t.h /usr/include/bits/types/time_t.h \
+ /usr/include/bits/types/timer_t.h /usr/include/bits/stdint-intn.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-uintn.h /usr/include/bits/stdint-least.h \
@@ -25,11 +23,16 @@ CMakeFiles/kwm.dir/src/wm.c.o: /home/julia/Documents/cpp/kwm/src/wm.c \
  /usr/include/bits/mathcalls-helper-functions.h \
  /usr/include/bits/mathcalls.h /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
- /usr/include/wayland-version.h /usr/include/wlr/backend.h \
- /usr/include/wlr/render/wlr_renderer.h /usr/include/wlr/render/pass.h \
- /usr/include/pixman-1/pixman.h /usr/include/pixman-1/pixman-version.h \
- /usr/include/wlr/util/box.h /usr/include/wayland-server-protocol.h \
- /usr/include/wayland-server.h /usr/include/wayland-server-core.h \
+ /usr/include/wayland-version.h /usr/include/wlr/util/log.h \
+ /usr/include/string.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /home/julia/Documents/cpp/kwm/src/../include/wm.h \
+ /usr/include/wlr/backend.h /usr/include/wlr/render/wlr_renderer.h \
+ /usr/include/wlr/render/pass.h /usr/include/pixman-1/pixman.h \
+ /usr/include/pixman-1/pixman-version.h /usr/include/wlr/util/box.h \
+ /usr/include/wayland-server-protocol.h /usr/include/wayland-server.h \
+ /usr/include/wayland-server-core.h \
  /usr/include/wayland-server-protocol.h \
  /usr/include/wlr/render/wlr_texture.h /usr/include/wlr/render/dmabuf.h \
  /usr/include/wlr/render/allocator.h \
@@ -40,4 +43,6 @@ CMakeFiles/kwm.dir/src/wm.c.o: /home/julia/Documents/cpp/kwm/src/wm.c \
  /usr/include/bits/endianness.h /usr/include/wlr/types/wlr_output.h \
  /usr/include/wayland-util.h /usr/include/wlr/types/wlr_buffer.h \
  /usr/include/wlr/util/addon.h \
- /home/julia/Documents/cpp/kwm/src/../include/utils.h
+ /home/julia/Documents/cpp/kwm/src/../include/./config.h \
+ /home/julia/Documents/cpp/kwm/src/../include/utils.h \
+ /home/julia/Documents/cpp/kwm/src/../include/config.h

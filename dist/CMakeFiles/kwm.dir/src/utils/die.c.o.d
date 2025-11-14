@@ -13,4 +13,4 @@ CMakeFiles/kwm.dir/src/utils/die.c.o: \
  /usr/include/string.h /usr/include/errno.h /usr/include/bits/errno.h \
  /usr/include/linux/errno.h /usr/include/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /home/julia/Documents/cpp/kwm/include/../include/utils.h
+ /home/julia/Documents/cpp/kwm/src/utils/../../include/utils.h

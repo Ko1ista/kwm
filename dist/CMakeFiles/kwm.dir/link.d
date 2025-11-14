@@ -4,7 +4,9 @@ kwm: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
   CMakeFiles/kwm.dir/src/main.c.o \
   CMakeFiles/kwm.dir/src/wm.c.o \
+  CMakeFiles/kwm.dir/src/config.c.o \
   CMakeFiles/kwm.dir/src/utils/die.c.o \
+  CMakeFiles/kwm.dir/src/utils/debug.c.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libwayland-server.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
@@ -111,7 +113,11 @@ CMakeFiles/kwm.dir/src/main.c.o:
 
 CMakeFiles/kwm.dir/src/wm.c.o:
 
+CMakeFiles/kwm.dir/src/config.c.o:
+
 CMakeFiles/kwm.dir/src/utils/die.c.o:
+
+CMakeFiles/kwm.dir/src/utils/debug.c.o:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libwayland-server.so:
 

@@ -7,6 +7,8 @@
 #include <wlr/render/allocator.h>
 #include <wlr/types/wlr_compositor.h>
 
+#include "./config.h"
+
 typedef struct {
     struct wl_display *display;
     struct wl_event_loop *event_loop;
@@ -16,10 +18,10 @@ typedef struct {
     struct wlr_allocator *allocator;
 
     struct wlr_compositor *compositor;
-    
+
 } wm_t;
 
-wm_t *create_wm();
+wm_t *create_wm(config_t *config);
 void destroy_wm(wm_t *wm);
 
 #endif

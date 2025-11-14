@@ -100,10 +100,24 @@ CMakeFiles/kwm.dir/src/wm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/kwm.dir/src/wm.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/Documents/cpp/kwm/src/wm.c -o CMakeFiles/kwm.dir/src/wm.c.s
 
+CMakeFiles/kwm.dir/src/config.c.o: CMakeFiles/kwm.dir/flags.make
+CMakeFiles/kwm.dir/src/config.c.o: /home/julia/Documents/cpp/kwm/src/config.c
+CMakeFiles/kwm.dir/src/config.c.o: CMakeFiles/kwm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julia/Documents/cpp/kwm/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/kwm.dir/src/config.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kwm.dir/src/config.c.o -MF CMakeFiles/kwm.dir/src/config.c.o.d -o CMakeFiles/kwm.dir/src/config.c.o -c /home/julia/Documents/cpp/kwm/src/config.c
+
+CMakeFiles/kwm.dir/src/config.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/kwm.dir/src/config.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/julia/Documents/cpp/kwm/src/config.c > CMakeFiles/kwm.dir/src/config.c.i
+
+CMakeFiles/kwm.dir/src/config.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/kwm.dir/src/config.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/Documents/cpp/kwm/src/config.c -o CMakeFiles/kwm.dir/src/config.c.s
+
 CMakeFiles/kwm.dir/src/utils/die.c.o: CMakeFiles/kwm.dir/flags.make
 CMakeFiles/kwm.dir/src/utils/die.c.o: /home/julia/Documents/cpp/kwm/src/utils/die.c
 CMakeFiles/kwm.dir/src/utils/die.c.o: CMakeFiles/kwm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julia/Documents/cpp/kwm/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/kwm.dir/src/utils/die.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julia/Documents/cpp/kwm/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/kwm.dir/src/utils/die.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kwm.dir/src/utils/die.c.o -MF CMakeFiles/kwm.dir/src/utils/die.c.o.d -o CMakeFiles/kwm.dir/src/utils/die.c.o -c /home/julia/Documents/cpp/kwm/src/utils/die.c
 
 CMakeFiles/kwm.dir/src/utils/die.c.i: cmake_force
@@ -114,22 +128,40 @@ CMakeFiles/kwm.dir/src/utils/die.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/kwm.dir/src/utils/die.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/Documents/cpp/kwm/src/utils/die.c -o CMakeFiles/kwm.dir/src/utils/die.c.s
 
+CMakeFiles/kwm.dir/src/utils/debug.c.o: CMakeFiles/kwm.dir/flags.make
+CMakeFiles/kwm.dir/src/utils/debug.c.o: /home/julia/Documents/cpp/kwm/src/utils/debug.c
+CMakeFiles/kwm.dir/src/utils/debug.c.o: CMakeFiles/kwm.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/julia/Documents/cpp/kwm/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/kwm.dir/src/utils/debug.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/kwm.dir/src/utils/debug.c.o -MF CMakeFiles/kwm.dir/src/utils/debug.c.o.d -o CMakeFiles/kwm.dir/src/utils/debug.c.o -c /home/julia/Documents/cpp/kwm/src/utils/debug.c
+
+CMakeFiles/kwm.dir/src/utils/debug.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/kwm.dir/src/utils/debug.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/julia/Documents/cpp/kwm/src/utils/debug.c > CMakeFiles/kwm.dir/src/utils/debug.c.i
+
+CMakeFiles/kwm.dir/src/utils/debug.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/kwm.dir/src/utils/debug.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/julia/Documents/cpp/kwm/src/utils/debug.c -o CMakeFiles/kwm.dir/src/utils/debug.c.s
+
 # Object files for target kwm
 kwm_OBJECTS = \
 "CMakeFiles/kwm.dir/src/main.c.o" \
 "CMakeFiles/kwm.dir/src/wm.c.o" \
-"CMakeFiles/kwm.dir/src/utils/die.c.o"
+"CMakeFiles/kwm.dir/src/config.c.o" \
+"CMakeFiles/kwm.dir/src/utils/die.c.o" \
+"CMakeFiles/kwm.dir/src/utils/debug.c.o"
 
 # External object files for target kwm
 kwm_EXTERNAL_OBJECTS =
 
 kwm: CMakeFiles/kwm.dir/src/main.c.o
 kwm: CMakeFiles/kwm.dir/src/wm.c.o
+kwm: CMakeFiles/kwm.dir/src/config.c.o
 kwm: CMakeFiles/kwm.dir/src/utils/die.c.o
+kwm: CMakeFiles/kwm.dir/src/utils/debug.c.o
 kwm: CMakeFiles/kwm.dir/build.make
 kwm: CMakeFiles/kwm.dir/compiler_depend.ts
 kwm: CMakeFiles/kwm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/julia/Documents/cpp/kwm/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable kwm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/julia/Documents/cpp/kwm/dist/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable kwm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kwm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

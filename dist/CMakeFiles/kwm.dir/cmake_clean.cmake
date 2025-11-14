@@ -1,7 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/kwm.dir/link.d"
+  "CMakeFiles/kwm.dir/src/config.c.o"
+  "CMakeFiles/kwm.dir/src/config.c.o.d"
   "CMakeFiles/kwm.dir/src/main.c.o"
   "CMakeFiles/kwm.dir/src/main.c.o.d"
+  "CMakeFiles/kwm.dir/src/utils/debug.c.o"
+  "CMakeFiles/kwm.dir/src/utils/debug.c.o.d"
   "CMakeFiles/kwm.dir/src/utils/die.c.o"
   "CMakeFiles/kwm.dir/src/utils/die.c.o.d"
   "CMakeFiles/kwm.dir/src/wm.c.o"

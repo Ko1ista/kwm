@@ -174,6 +174,30 @@ kwm/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kwm.dir/build.make CMakeFiles/kwm.dir/build
 .PHONY : kwm/fast
 
+src/config.o: src/config.c.o
+.PHONY : src/config.o
+
+# target to build an object file
+src/config.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kwm.dir/build.make CMakeFiles/kwm.dir/src/config.c.o
+.PHONY : src/config.c.o
+
+src/config.i: src/config.c.i
+.PHONY : src/config.i
+
+# target to preprocess a source file
+src/config.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kwm.dir/build.make CMakeFiles/kwm.dir/src/config.c.i
+.PHONY : src/config.c.i
+
+src/config.s: src/config.c.s
+.PHONY : src/config.s
+
+# target to generate assembly for a file
+src/config.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kwm.dir/build.make CMakeFiles/kwm.dir/src/config.c.s
+.PHONY : src/config.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -197,6 +221,30 @@ src/main.s: src/main.c.s
 src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/kwm.dir/build.make CMakeFiles/kwm.dir/src/main.c.s
 .PHONY : src/main.c.s
+
+src/utils/debug.o: src/utils/debug.c.o
+.PHONY : src/utils/debug.o
+
+# target to build an object file
+src/utils/debug.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kwm.dir/build.make CMakeFiles/kwm.dir/src/utils/debug.c.o
+.PHONY : src/utils/debug.c.o
+
+src/utils/debug.i: src/utils/debug.c.i
+.PHONY : src/utils/debug.i
+
+# target to preprocess a source file
+src/utils/debug.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kwm.dir/build.make CMakeFiles/kwm.dir/src/utils/debug.c.i
+.PHONY : src/utils/debug.c.i
+
+src/utils/debug.s: src/utils/debug.c.s
+.PHONY : src/utils/debug.s
+
+# target to generate assembly for a file
+src/utils/debug.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/kwm.dir/build.make CMakeFiles/kwm.dir/src/utils/debug.c.s
+.PHONY : src/utils/debug.c.s
 
 src/utils/die.o: src/utils/die.c.o
 .PHONY : src/utils/die.o
@@ -259,9 +307,15 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... kwm"
+	@echo "... src/config.o"
+	@echo "... src/config.i"
+	@echo "... src/config.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/utils/debug.o"
+	@echo "... src/utils/debug.i"
+	@echo "... src/utils/debug.s"
 	@echo "... src/utils/die.o"
 	@echo "... src/utils/die.i"
 	@echo "... src/utils/die.s"

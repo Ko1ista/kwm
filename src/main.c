@@ -9,8 +9,8 @@
 #include "../include/config.h"
 
 int main(int argc, char* argv[]) {
-    get_config_from_file(NULL);
     wlr_log_init(WLR_DEBUG, NULL);
+    config_t *config =  get_config_from_file(NULL);
 
     wm_t *wm = create_wm(config);
     if(!wm) {

@@ -65,6 +65,7 @@ void destroy_wm(wm_t *wm) {
         free(wm->event_loop);
         free(wm->allocator);
         free(wm->renderer);
+        free(wm->compositor);
         free(wm);
     }
 }

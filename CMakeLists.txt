@@ -5,10 +5,8 @@ set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_EXTENSIONS OFF)
 
-# Добавьте флаг для wlroots
 add_compile_definitions(WLR_USE_UNSTABLE)
 
-# Поиск зависимостей
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(WAYLAND REQUIRED wayland-server)
 pkg_check_modules(WLROOTS REQUIRED wlroots)
@@ -23,7 +21,6 @@ add_executable(${PROJECT_NAME}
 
 target_include_directories(${PROJECT_NAME} PRIVATE include)
 
-# Подключение библиотек и флагов
 target_link_libraries(${PROJECT_NAME} 
     PRIVATE 
     ${WAYLAND_LIBRARIES}

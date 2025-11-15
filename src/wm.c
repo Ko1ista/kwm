@@ -18,8 +18,6 @@ wm_t *create_wm(config_t *config) {
         die(DIE_FAILURE, "Failed to allocate memory for display");
     }
 
-    wm->event_loop = wl_display_get_event_loop(wm->display);
-
     wm->backend = wlr_backend_autocreate(wm->display, NULL);
     if(!wm->backend) {
         free(wm->display);
@@ -58,11 +56,22 @@ wm_t *create_wm(config_t *config) {
     return wm;
 }
 
+void run_wm(wm_t *wm) {
+    if(!wm) {
+        destroy_wm(wm);
+        die(DIE_FAILURE, "wm is null");
+    }
+
+    wm->event_loop = wl_display_get_event_loop(wm->display);
+    wl_display_run(wm->display);
+}
+
 void destroy_wm(wm_t *wm) {
     if(wm) {
+        if(wm->event_loop) free(wm->event_loop);
+
         free(wm->display);
         free(wm->backend);
-        free(wm->event_loop);
         free(wm->allocator);
         free(wm->renderer);
         free(wm->compositor);

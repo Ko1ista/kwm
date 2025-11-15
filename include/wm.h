@@ -18,10 +18,10 @@ typedef struct {
     struct wlr_allocator *allocator;
 
     struct wlr_compositor *compositor;
-
 } wm_t;
 
 wm_t *create_wm(config_t *config);
+void run_wm(wm_t *wm);
 void destroy_wm(wm_t *wm);
 
 #endif

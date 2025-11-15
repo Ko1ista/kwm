@@ -17,6 +17,7 @@ int main(int argc, char* argv[]) {
         die(DIE_FAILURE, "Failed to initialize compositor\n");
     }
 
+    run_wm(wm);
     destroy_wm(wm);
 
     return 0;
